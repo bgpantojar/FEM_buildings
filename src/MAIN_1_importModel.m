@@ -17,4 +17,3 @@ view( -30,   40);
 
 save('modelTremuri.mat', 'modelTremuri');
 save('modelOpensees.mat', 'modelOpensees');
-       

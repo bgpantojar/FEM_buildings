@@ -97,7 +97,9 @@ Inside the folder `examples/` we have provide the input scripts that our algorit
 
 The algorithm first will create the LOD3 model and then postprocess it to generate the FEM models. Run the other examples similarly to the previous inline command.
 
-`IMPORTANT` change the paths according your pc of: 1) line 3 in the file LOD3_builder.sh; 2) line 6 in the file MAIN_2_writeAnalyses.m; 3) line 3 in the file MAIN_3_processAnalyses.m
+`Note`: After displaying the finite element models close the windows to continue. For the macroelements is necessary to write `exit()` and hit enter to continue.
+
+`IMPORTANT` **change the paths according your pc of: 1) line 3 in the file LOD3_builder.sh; 2) line 6 in the file MAIN_2_writeAnalyses.m; 3) line 3 in the file MAIN_3_processAnalyses.m**
 
 ### 6. Creating your own digital twin as LOD3 model
 
