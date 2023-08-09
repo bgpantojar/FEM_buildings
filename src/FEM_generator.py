@@ -150,7 +150,7 @@ def fem_generator_solids(data_folder, dense, polyfit_path, sfm_json_path, images
     if modal_analysis:
         print("---(IV) Run modal analysis (MA) with Finite Element Model usin solid elements---")
         print("Running MA using solid elements in AMARU...")
-        #Solids: suing Amaru https://github.com/NumSoftware/Amaru.jl
+        #Solids: using Amaru https://github.com/NumSoftware/Amaru.jl
         FEM.run_modal_analysis_solids(data_folder, E=E, nu=nu, rho=rho, nmods=nmods)
         t4 = time.time()
         print(":::Finished part (IV) in {}s:::".format(np.round(t4-t3,2)))

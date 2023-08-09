@@ -41,7 +41,7 @@ FEM_buildings
 
 Create a conda environment and install python packages. At the terminal in the repository location.
 
-`conda create -n FEM_buildings python=3.8.13`
+`conda create -n FEM_buildings python=3.8`
 
 `conda activate FEM_buildings `
 
@@ -77,13 +77,13 @@ FEM_buildings
   - in the terminal `export PATH=$PATH:/usr/local/MATLAB/R2022b/bin`
 
 - Julia and Amaru: If in the examples the flag for modal_analysis is true, it need Amaru FEM software for the analysis with solid elements. Follow the next steps:
-  - Install Julia
+  - Install Julia (tested with version 1.8.0)
     - Download binaries from [Julia](https://julialang.org/downloads/) (Generic Linux binaries for x86)
     - Extract files
-    - Copy the bin's folder path (/home/pantojas/julia-1.3.1-linux-x86_64/julia-1.3.1/bin)
+    - Copy the bin's folder path (/home/pantojas/julia-1.8.0-linux-x86_64/julia-1.8.0/bin)
     - open terminal and write `sudo vim /etc/environment`
-    - Add at the final the :bin path (:/home/pantojas/julia-1.3.1-linux-x86_64/julia-1.3.1/bin) and save
-    - in the terminal `export PATH=$PATH:/home/pantojas/julia-1.3.1-linux-x86_64/julia-1.3.1/bin`
+    - Add at the final the :bin path (:/home/pantojas/julia-1.8.0-linux-x86_64/julia-1.8.0/bin) and save
+    - in the terminal `export PATH=$PATH:/home/pantojas/julia-1.8.0-linux-x86_64/julia-1.8.0/bin`
   - Install [Amaru](https://github.com/NumSoftware/Amaru.jl)
     - open terminal and call julia `julia`
     - press the pkg key "]" and then write `dev https://github.com/NumSoftware/Amaru`
