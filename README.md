@@ -1,6 +1,6 @@
 # FEM_buildings
 
-This repository contains the codes for generating finite element models of masonry buildings. The hereby methodology was presented in the paper ["Automated image-based generation of finite element models for masonry buildings" by Pantoja-Rosero et., al. (2023)] (https://doi.org/10.1007/s10518-023-01726-7)
+This repository contains the codes for generating finite element models of masonry buildings. The hereby methodology was presented in the paper ["Automated image-based generation of finite element models for masonry buildings" by Pantoja-Rosero et., al. (2023)](https://doi.org/10.1007/s10518-023-01726-7)
 
 <p align="center">
   <img src=docs/images/fem_01.png>
